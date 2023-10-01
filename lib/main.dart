@@ -9,15 +9,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Material App',
+      title: 'TikTok',
       debugShowCheckedModeBanner: false,
       theme: AppTheme().getTheme(),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Tik Tok'),
+          title: const Text('TikTok'),
         ),
         body: const Center(
-          child: Text('Hello World'),
+          child: Text('TikTok Clone'),
         ),
       ),
     );
