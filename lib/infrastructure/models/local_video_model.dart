@@ -9,13 +9,13 @@ class LocalVideoModel{
   LocalVideoModel({
     required this.name, 
     required this.videoUrl, 
-    this.likes=0, 
-    this.views=0});
+    this.likes=1222, 
+    this.views=1222});
 
     factory LocalVideoModel.fromJson(Map<String, dynamic>json)=> LocalVideoModel(
       name: json['name']?? 'no name',
       videoUrl: json['videoUrl'],
-      likes: json['like']?? 0,
+      likes: json['likes']?? 0,
       views: json['views']?? 0
     );
  VideoPost toVideoPostEntity()=> VideoPost(

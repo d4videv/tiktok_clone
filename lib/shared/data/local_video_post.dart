@@ -2,8 +2,8 @@ List<Map<String, dynamic>> videoPosts = [
   {
     'name': 'Subiendo escaleras automáticas',
     'videoUrl': 'assets/videos/1.mp4',
-    'likes': 23230,
-    'views': 1523,
+    'likes': 123123,
+    'views': 162344,
   },
   {
     'name': 'Planta apreciada por peatones',
@@ -20,7 +20,7 @@ List<Map<String, dynamic>> videoPosts = [
   {
     'name': '¿Esto es trigo? que interesante',
     'videoUrl': 'assets/videos/4.mp4',
-    'likes': 320,
+    'likes': 320222123123,
     'views': 2300,
   },
   {
@@ -32,8 +32,8 @@ List<Map<String, dynamic>> videoPosts = [
   {
     'name': 'No quiero ir a trabajar hoy señor Stark',
     'videoUrl': 'assets/videos/6.mp4',
-    'likes': 10,
-    'views': 330,
+    'likes': 1012312,
+    'views': 3301,
   },
   {
     'name': 'Limpiar nunca fue tan divertido',

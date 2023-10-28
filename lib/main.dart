@@ -13,7 +13,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers:[
-        ChangeNotifierProvider(create: (_) => DiscoverProvider())
+        ChangeNotifierProvider(
+         //sirve para que inmediatamente se carge la instancia en el provider
+          lazy: false,
+          create: (_) => DiscoverProvider()..loadNextPage())
       ],
       child: MaterialApp(
         title: 'TikTok',
